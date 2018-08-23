@@ -1,5 +1,5 @@
 var functions = require('../functions.js')
-var url = 'https://api.douban.com/v2/movie/coming_soon'
+var url = 'https://douban.reggiecai.cn/api/coming_soon.php'
 var pageSize = 20
 Page({
   data: {

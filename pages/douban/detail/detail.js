@@ -10,7 +10,7 @@ Page({
       title: options.title
     })
     wx.request({
-      url: 'https://api.douban.com/v2/movie/subject/' + options.id,
+      url: 'https://douban.reggiecai.cn/api/subject.php?id=' + options.id,
       header: {
         'content-type': 'json'
       },
