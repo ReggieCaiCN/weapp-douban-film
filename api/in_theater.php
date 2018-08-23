@@ -6,4 +6,4 @@
  * Time: 17:35
  */
 $url =  'https://api.douban.com/v2/movie/in_theaters';
-var_dump(parse_url($url));
+echo file_get_contents($url);
